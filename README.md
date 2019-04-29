@@ -7,6 +7,7 @@
 - To view on mobile you can
   - Inspect the webpage and select toggle device toolbar
   - Or on your mobile browser type in "youripv4:3000" (find using ipconfig)
+(It looks a lot better on mobile)
 
 I used 3 3rd party Components
 react-tabs

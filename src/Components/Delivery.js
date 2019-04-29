@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button'
 import '../Styles/Delivery.css'
 
-
+/*
+* Delivery Component uses json info to create a block for an individual delivery
+*/
 class Delivery extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +27,7 @@ class Delivery extends Component {
 
     if(isMobile) buttonText = "Order Status Here";
     if(data.sellingOut) sellingOut = "Hurry! It's Selling Out!"
-
+    
     if(isPastCutoff) {
       button = <Button variant="primary" size = "lg" disabled>Cutoff time past</Button>
     } else {

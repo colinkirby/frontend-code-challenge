@@ -8,8 +8,9 @@ import deliveryData from './deliveries-sample.json';
 import Delivery from './Components/Delivery.js'
 import ReactModal from 'react-modal';
 
-
-
+/*
+* Full delivery schedule for all 5 days of the week
+*/
 class App extends Component {
   constructor(props) {
     super(props);
@@ -21,10 +22,12 @@ class App extends Component {
 
   }
 
+  //Opens Modal
   handleOpenModal = (name) => {
     this.setState({ showModal: true, modalRestaurant: name});
   }
 
+  //Closes Modal
   handleCloseModal = () => {
     this.setState({ showModal: false });
   }
@@ -34,6 +37,7 @@ class App extends Component {
     this.resize();
   }
 
+  //Identifies if screen is mobile or not
   resize() {
       this.setState({mobile: window.innerWidth <= 760});
   }
@@ -52,7 +56,6 @@ class App extends Component {
     }
 
     return(
-
       <div class = {dispStyle}>
         <ReactModal
            className = "Modal"
