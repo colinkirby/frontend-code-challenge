@@ -6,7 +6,6 @@ import "./Styles/Tabs.css";
 import "./Styles/Modal.css";
 import deliveryData from './deliveries-sample.json';
 import Delivery from './Components/Delivery.js'
-import Modal from 'react-bootstrap/Modal'
 import ReactModal from 'react-modal';
 
 
