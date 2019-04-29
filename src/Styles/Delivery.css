@@ -1,0 +1,22 @@
+body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 150px 250px;
+  grid-gap: 10px;
+  color: #444;
+  border-bottom: 2px solid red;
+
+}
+
+.box {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.time {
+  position: relative;
+  font-size: 12px;
+}

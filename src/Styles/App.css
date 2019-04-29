@@ -1,0 +1,13 @@
+.Desktop {
+  text-align: center;
+  align-items: center;
+  width: 400px;
+}
+.Mobile {
+  text-align: center;
+  align-items: center;
+}
+.Delivery {
+  display: flex;
+  justify-content: center;
+}
